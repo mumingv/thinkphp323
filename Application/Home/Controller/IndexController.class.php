@@ -16,7 +16,7 @@ class IndexController extends Controller {
         echo '只是protected方法!';
     }
 
-    private function test2(){
+    private function test3(){
         echo '这是private方法!';
     }
 }
