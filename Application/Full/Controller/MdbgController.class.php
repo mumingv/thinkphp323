@@ -2,7 +2,7 @@
 namespace Full\Controller;
 use Think\Controller;
 
-class VarController extends Controller {
+class MdbgController extends Controller {
     private $_fruits = array(
         'apple' => 'green',
         'orange' => 'orange',
