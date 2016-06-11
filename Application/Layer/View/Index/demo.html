@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<title>开始使用layer</title>
+</head>
+<body>
+<button id="test5">demo</button>
+
+<script src="/Public/js/jquery.js"></script>
+<script src="/Public/js/layer/layer.js"></script>
+<script>
+
+// 弹出一个tips层
+$('#test5').on('click', function(){
+    layer.tips('Hello tips!', '#test5');
+});
+
+</script>
+</body>
+</html>       
