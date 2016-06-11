@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<title>开始使用layer</title>
+</head>
+<body>
+<button id="test1">小小提示层</button>
+<button id="test2">弹出一个页面层</button>
+
+<script src="/Public/js/jquery.js"></script>
+<script src="/Public/js/layer/layer.js"></script>
+<script>
+
+$('#test1').on('click', function(){
+    layer.msg('Hello layer');
+});
+
+$('#test2').on('click', function(){
+    layer.open({
+        type: 1,
+        area: ['600px', '360px'], 
+        shadeClose: true,
+        content: '\<\div style="padding:20px;">自定义内容\<\div>'
+    });
+});
+
+</script>
+</body>
+</html>       
